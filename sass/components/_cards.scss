@@ -1,0 +1,10 @@
+.item1{
+    @include flex(flex,row,wrap,space-around,center,00.625rem);
+    img {
+        @include img (45%,auto);
+        object-fit: contain;
+    }
+}
+
+
+    

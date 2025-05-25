@@ -1,0 +1,30 @@
+@mixin flex($display,$direction,$wrap,$justify,$align,$gap){
+    display: $display;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+    justify-content: $justify;
+    align-items: $align;
+    gap: $gap;
+}
+
+@mixin grid($columns,$gap,$margin){
+    display: grid;
+    grid-template-columns: $columns;
+    gap: $gap;
+    margin: $margin;
+}
+
+@mixin img ($width,$height){
+    width: $width;
+    height: $height;
+}
+
+@mixin title($font,$color,$background,$align,$margin){
+    font-family: $font;
+    color: $color;
+    background-color: $background;
+    text-align: $align;
+    margin: $margin;
+}
+
+    
