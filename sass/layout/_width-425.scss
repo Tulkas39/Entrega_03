@@ -1,0 +1,39 @@
+@media (max-width: 425px) {
+    
+    .mainsection-grids{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 0.625rem;
+}
+.item1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 0.625rem;
+}
+.item1 img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+section article img{
+    display: flex;
+    justify-self: center;
+    flex-wrap: wrap;
+    border-color:#ee6c4d;
+    border-radius: 2rem;
+    border-style: solid;
+    border-width: 0.3125rem;
+    width: 90%;
+    height: auto;
+    object-fit: contain;
+}
+
+.logoargentina{
+    display: none
+}
+}
