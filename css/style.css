@@ -121,6 +121,9 @@ h3 span {
   background-color: #ee6c4d;
   text-align: center;
   margin: 10px;
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
   padding: 10px;
   padding-left: 20px;
   padding-right: 20px;
@@ -243,20 +246,15 @@ h2 {
 
 @media (max-width: 1024px) {
   .header-logo {
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: auto;
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
     margin: 0%;
   }
-  h1 {
-    font-family: "Love Ya Like A Sister", cursive;
-    text-align: center;
-    color: #98c1d9;
-    font-size: 4rem;
-    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-  }
+}
+@media (max-width: 1024px) {
   header section a img {
     position: relative;
     width: 4rem;
@@ -275,6 +273,9 @@ h2 {
   }
 }
 @media (max-width: 425px) {
+  .header-logo h1 {
+    font-size: 4rem;
+  }
   .mainsection-grids {
     display: flex;
     flex-direction: row;
