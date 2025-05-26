@@ -32,3 +32,6 @@ footer section p{
     background-color: white;
     text-align: center;
 }
+.logoargentina{
+    @include img(75px,75px);
+}
