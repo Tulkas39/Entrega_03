@@ -57,6 +57,33 @@
   border-radius: 2.18rem;
 }
 
+@media (max-width: 1024px) {
+  .header-logo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: 0%;
+  }
+  header h1 {
+    font-family: "Love Ya Like A Sister", cursive;
+    text-align: center;
+    color: #98c1d9;
+    font-size: 4rem;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  }
+  header section a img {
+    position: relative;
+    width: 4rem;
+    height: 4rem;
+    top: 2rem;
+  }
+}
+.img-argentina {
+  display: none;
+}
+
 .mainsection-grids {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -96,6 +123,42 @@
   border-width: 0.3125rem;
 }
 
+@media (max-width: 425px) {
+  .mainsection-grids {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 0.625rem;
+  }
+  .item1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 0.625rem;
+  }
+  .item1 img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  section article img {
+    display: flex;
+    justify-self: center;
+    flex-wrap: wrap;
+    border-color: #ee6c4d;
+    border-radius: 2rem;
+    border-style: solid;
+    border-width: 0.3125rem;
+    width: 90%;
+    height: auto;
+    object-fit: contain;
+  }
+  .logoargentina {
+    display: none;
+  }
+}
 .flexsection {
   display: flex;
   flex-direction: row;
@@ -151,6 +214,15 @@ p {
   margin: 1.25rem;
 }
 
+@media (max-width: 1024px) {
+  .flexsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 0%;
+  }
+}
 .footer {
   display: flex;
   flex-direction: row;

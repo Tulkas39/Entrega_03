@@ -27,3 +27,13 @@
     p {
     @include title($font-parrafos,white,#98c1d9,center,1.25rem);
 }
+
+@media (max-width: 1024px) {
+    .flexsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 0%;
+    }
+}
