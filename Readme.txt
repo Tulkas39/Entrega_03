@@ -1,5 +1,11 @@
 ¡Buenas Profes!
 
+Tercera Entrega Sass
+
+Modularización del css
+Utilización de variables, extends, maps y mixins
+Agregadas animaciones de librería anímate.css
+
 Segunda Entrega
 
 Dejo el mensaje detallando la consigna realizada:
@@ -15,7 +21,6 @@ Bootstrap se aplicó en un carousel muy básico para el nosotros.html y se aplic
 El responsive se trabajó en el index.html y en las páginas ofertaeducativa.html y comunidad.html
 Las @media querys trataron de organizar los elementos para tablet y celular
 
-Tercera Entrega Sass
 
 
 
