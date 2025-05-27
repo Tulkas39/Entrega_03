@@ -15,5 +15,8 @@
     "url": "https://github.com/Tulkas39/Entrega_03/issues"
   },
   "homepage": "https://github.com/Tulkas39/Entrega_03#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
 }
