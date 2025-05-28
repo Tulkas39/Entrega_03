@@ -4,7 +4,7 @@
     h1{
     font-family: "Love Ya Like A Sister", cursive;
     text-align: center;
-    color: #98c1d9;
+    color: $color-secondary;
     font-size: 6rem;
     text-shadow:
     -1px -1px 0 black,
@@ -32,7 +32,7 @@
             list-style: none;
             font-family: "Just Another Hand", cursive;
             font-size: 2rem;
-            background-color: #98c1d9;
+            background-color: $color-secondary;
             border-radius: 2.2rem;
             border-style: hidden;
             margin: 0rem;
@@ -46,7 +46,7 @@
         color: white;
     }
         a:hover {
-            background-color: #ee6c4d;
+            background-color: $color-primary;
             border-radius: 2.18rem;
         }
 }

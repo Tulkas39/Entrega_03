@@ -9,7 +9,7 @@
     text-align: center;
 }
 section div h2{
-    font-family: "Love Ya Like A Sister", cursive;
+    font-family: $font-h1, cursive;
     font-size: 2rem;
     text-shadow:
     -1px -1px 0 black,
@@ -17,17 +17,17 @@ section div h2{
     -1px  1px 0 black,
     1px  1px 0 black;
     background-color: white;
-    color:#98c1d9;
+    color: $color-secondary;
     margin: 1.25rem;
 }
 section div h4{
-    font-family: "Open Sans", sans-serif;
+    font-family: $font-titulos;
     text-align: center;
     font-size: 1.25rem;
     margin-bottom: 1rem;
 }
 footer section p{
-    font-family: "Open Sans", sans-serif;
+    font-family: $font-titulos;
     color: black;
     background-color: white;
     text-align: center;

@@ -1,0 +1,13 @@
+.btn-primary {
+    background-color: $color-primary;
+    border-color: $color-secondary;
+    margin: map-get($button-margins , xl);
+
+}
+
+.btn-secondary {
+    background-color: $color-primary;
+    border-color: $color-secondary;
+    margin: map-get($button-margins , xs);
+
+}
