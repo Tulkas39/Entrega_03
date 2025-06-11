@@ -1,12 +1,17 @@
 .mainsection-grids{
-    @include grid(50% 50%,2rem,0.625rem);
+    @include grid(50% 50%,0rem,0rem);
+    .item1 {
+        margin-top: 3%;
+    }
     h3{
-       @include title($font-titulos,$color-tertiary,white,center,2.5rem);
+       @include title($font-titulos,$color-tertiary,white,center,0rem);
        font-size: 1.375rem;
+       margin-bottom: 40px;
+       margin-top: 20px;
     }
     h3 span{
         @include title("Open Sans",white,$color-primary,center,10px);
-        padding: 10px;
+        padding: 15px;
         padding-left: 20px;
         padding-right: 20px;
         border-radius: 12px;

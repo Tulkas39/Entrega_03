@@ -1,17 +1,25 @@
-@media (max-width: 425px) {
+@media (max-width: 768px) {
     .header-logo {
         h1{
-            font-size: 4rem;
+            font-size: 8rem;
         }
     }
-    .mainsection-grids{
+    .mainsection-grids {
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
         flex-wrap: wrap;
         gap: 2rem;
         margin: 0.625rem;
-}
+        h3 span {
+            font-size: 2rem;
+        }
+    }
+    .flexsection {
+        h3 span{
+            font-size: 2rem;
+        }
+    }
     .item1 {
         display: flex;
         justify-content: space-around;

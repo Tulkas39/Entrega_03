@@ -10,7 +10,7 @@
 <body>
     <header>
         <section class="header-logo">
-            <a href="#"><img class= "img-argentina" src="../assets/argentina.png" alt="logo de la página Argentina" class="d-none"></a>
+            <a href="#"><img class= "logoargentina" src="../assets/argentina.png" alt="logo de la página Argentina" class="d-none"></a>
             <h1 class="header-title">Colegio Argentino</h1>
             <a href="#"><img src="../assets/mate.png" alt= "logo de la página Mate"></a>
         </section>
@@ -28,57 +28,65 @@
     <main>
 
         <!-- Forms con bootstrap-->
+        <div class="inscripciones">
         <h2 class="inscripcionesForm">Inscripciones</h2>
         <p style="text-align: center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dolore ipsa, consequatur voluptatibus in doloremque, repellendus blanditiis tenetur optio dignissimos fugiat minima esse aperiam et facilis repellat. Quasi, dolorem necessitatibus!Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dolore ipsa, consequatur voluptatibus in doloremque, repellendus blanditiis tenetur optio dignissimos fugiat minima esse aperiam et facilis repellat. Quasi, dolorem necessitatibus!Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dolore ipsa, consequatur voluptatibus in doloremque, repellendus blanditiis tenetur optio dignissimos fugiat minima esse aperiam et facilis repellat. Quasi, dolorem necessitatibus!Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dolore ipsa, consequatur voluptatibus in doloremque, repellendus blanditiis tenetur optio dignissimos fugiat minima esse aperiam et facilis repellat. Quasi, dolorem necessitatibus!Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dolore ipsa, consequatur voluptatibus in doloremque, repellendus blanditiis tenetur optio dignissimos fugiat minima esse aperiam et facilis repellat. Quasi, dolorem necessitatibus!Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dolore ipsa, consequatur voluptatibus in doloremque, repellendus blanditiis tenetur optio dignissimos fugiat minima esse aperiam et facilis repellat. Quasi, dolorem necessitatibus!Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dolore ipsa, consequatur voluptatibus in doloremque, repellendus blanditiis tenetur optio dignissimos fugiat minima esse aperiam et facilis repellat. Quasi, dolorem necessitatibus!Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dolore ipsa, consequatur voluptatibus in doloremque, repellendus blanditiis tenetur optio dignissimos fugiat minima esse aperiam et facilis repellat. Quasi, dolorem necessitatibus!</p>
-        <br> 
-        <br> 
-        <h2 class="inscripcionesForm">¡Solicitá tu Inscripción!</h2>
+        </div>
+        <div class="inscripcionesform">
+            <h2>¡Solicitá tu Inscripción!</h2>
+        </div>
+        <div class="form">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Nombre y apellido</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Emiliano Miranda">
+                    <br>
+                    <label for="exampleFormControlInput1" class="form-label">Documento Nacional de Identidad</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="123456789">
+                    <br>
+                    <label for="exampleFormControlInput1" class="form-label">Mail</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label">Dirección</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="Armada Argentina 691">
+                    <br>
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress2" class="form-label">Dirección 2</label>
+                    <input type="text" class="form-control" id="inputAddress2" placeholder="Depto">
+                </div>
+                <div class="col-md-6">
+                    <br>
+                    <label for="inputCity" class="form-label">Ciudad</label>
+                    <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-4">
+                    <label for="inputState" class="form-label">Provincia</label>
+                    <select id="inputState" class="form-select">
+                    <option selected>Elegir</option>
+                    <option>San Juan</option>
+                    <option>Mendoza</option>
+                    <option>San Luis</option>
+                    </select>
 
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Nombre y apellido</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Emiliano Miranda">
-                <label for="exampleFormControlInput1" class="form-label">Documento Nacional de Identidad</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="123456789">
-                <label for="exampleFormControlInput1" class="form-label">Mail</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-            </div>
-            <div class="col-12">
-                <label for="inputAddress" class="form-label">Dirección</label>
-                <input type="text" class="form-control" id="inputAddress" placeholder="Armada Argentina 691">
-            </div>
-            <div class="col-12">
-                <label for="inputAddress2" class="form-label">Dirección 2</label>
-                <input type="text" class="form-control" id="inputAddress2" placeholder="Depto">
-            </div>
-            <div class="col-md-6">
-                <label for="inputCity" class="form-label">Ciudad</label>
-                <input type="text" class="form-control" id="inputCity">
-            </div>
-            <div class="col-md-4">
-                <label for="inputState" class="form-label">Provincia</label>
-                <select id="inputState" class="form-select">
-                <option selected>Elegir</option>
-                <option>San Juan</option>
-                <option>Mendoza</option>
-                <option>San Luis</option>
-                </select>
-
-                <br>
-                <label for="exampleFormControlInput1" class="form-label">Modalidad a Elegir</label>
-                <br>
-                <input type="checkbox" class="btn-check" id="btn-check" autocomplete="off">
-                <label class="btn btn-secondary" for="btn-check">Educación Primaria</label>
-                <input type="checkbox" class="btn-check" id="btn-check-2" checked autocomplete="off">
-                <label class="btn btn-secondary" for="btn-check-2">Educación Secundaria</label>
-            </div>
-            <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">¿Por qué elige Colegio Argentino?</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-            <div class="col-12">
-                <button type="submit" class="btn btn-primary">Enviar Pre-Inscripción</button>
-            </div>
-        </form>
+                    <br>
+                    <label for="exampleFormControlInput1" class="form-label">Modalidad a Elegir</label>
+                    <br>
+                    <input type="checkbox" class="btn-check" id="btn-check" autocomplete="off">
+                    <label class="btn btn-secondary" for="btn-check">Educación Primaria</label>
+                    <input type="checkbox" class="btn-check" id="btn-check-2" checked autocomplete="off">
+                    <label class="btn btn-secondary" for="btn-check-2">Educación Secundaria</label>
+                </div>
+                <div class="mb-3">
+                    <br>
+                    <label for="exampleFormControlTextarea1" class="form-label">¿Por qué elige Colegio Argentino?</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Enviar Pre-Inscripción</button>
+                </div>
+            </form>
+        </div>
     </main>
     <footer>
         <section class="footer">

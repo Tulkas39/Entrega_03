@@ -1,10 +1,20 @@
-h2{
-    @include title("Open Sans" sans-serif,white,#ee6c4d,center,10px);
-    border-radius: 12px;
-    margin-top: 30px;
-    margin-bottom: 50px;
+.inscripciones {
+    text-align: center;
+    margin-top: 40px;
 }
-.col-12 {
-    display: flex;
-    justify-content: center;
+
+.inscripcionesform {
+    text-align: center;
+    margin: 40px;
 }
+
+    h2{
+        @include title("Open Sans" sans-serif,white,#ee6c4d,center,10px);
+            display: inline;
+            padding: 8px 20px;
+            border-radius: 12px;
+}
+.form {
+    margin-left: 40px;
+}
+

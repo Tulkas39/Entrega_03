@@ -1,0 +1,34 @@
+@media (max-width: 590px) {
+    .header-logo {
+        h1{
+            font-size: 4rem;
+        }
+    }
+    .mainsection-grids{
+        h3 span {
+            font-size: 1.5rem;
+        }
+    }
+    .flexsection{
+        h3 span {
+            font-size: 1rem;
+        }
+    }
+
+    .carousel-inner{
+    background-color: white;
+    width: 90%;
+    left: -10%;
+    margin: 50px;
+    border-radius: 25%;
+}
+.carousel-control-prev{
+    left: 37%;
+}
+.carousel-control-next{
+    left: 60%;
+}
+.carousel-item{
+    left: 30%;
+}
+}
